@@ -34,7 +34,7 @@ function Header() {
       <div className="row" style={{ gap: "10px" }}>
         <input  
         className="header-input"  type="text" placeholder="Search..." />
-    <button >a</button>
+    
     
         <div style={{ gap: "5px", display: "flex" }}>
           {theme ? (
