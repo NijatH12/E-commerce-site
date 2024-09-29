@@ -1,0 +1,32 @@
+.image{
+    width: 150px;
+    height: 200px;
+    padding: 5px;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    box-shadow:  1px 4px 3px lightgray;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin-bottom: 20px;
+ transition: all 0.3s;
+}
+.card:hover{
+    box-shadow: 1px 4px 3px rgb(183, 169, 169); 
+    cursor: pointer;
+}
+.price{
+    color: brown;
+    font-size: 18px;
+}
+.card-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(185, 70, 70) ;
+    border-color: rgb(185, 70, 70);
+    color: white;
+}

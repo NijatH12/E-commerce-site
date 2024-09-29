@@ -1,0 +1,31 @@
+.logopng{
+    width: 40px;
+    height: 40px;
+    transform: rotateY(180deg);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logoname{
+    font-size: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.icons{
+    font-size: 20px;
+}
+.icons:hover{
+    cursor: pointer;
+}
